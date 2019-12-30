@@ -33,6 +33,8 @@ public class ScreenshotFailedCases {
 	//using ITestResult.FAILURE is equals to result.getStatus then it enter into if condition
 		if(ITestResult.FAILURE==result.getStatus()){
 			try{
+				
+				//new comment
 				// To create reference of TakesScreenshot
 				TakesScreenshot screenshot=(TakesScreenshot)driver;
 				// Call method to capture screenshot
