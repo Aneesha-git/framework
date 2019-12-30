@@ -23,6 +23,7 @@ public class DemoSelenium {
 	}
 
 	@Test
+	//test for pull
 	public void openChrome() {
 		System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\chromedriver.exe");
 		driver = new ChromeDriver();
